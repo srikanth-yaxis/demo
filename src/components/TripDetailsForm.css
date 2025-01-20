@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .trip-details-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Form Labels */
+  .form-label,
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Input Fields and Select Dropdown */
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Radio Buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  label[for="yes"],
+  label[for="no"] {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  /* Date Picker Styles */
+  .date-picker-container {
+    position: relative;
+  }
+  
+  .date-picker-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .date-picker-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Error Message */
+  .error-message {
+    font-size: 14px;
+    color: #d9534f;
+    margin-top: 5px;
+    padding: 10px;
+    background: #fbe2e2;
+    border: 1px solid #d9534f;
+    border-radius: 4px;
+    line-height: 1.5;
+  }
+  
+  /* Save Button */
+  .save-button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .trip-details-form {
+      padding: 15px;
+    }
+  
+    .save-button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  .info-note {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85em;
+    color: #6c757d; /* Gray color for the note */
+  }
+  
+  .info-icon {
+    margin-right: 5px;
+    font-style: normal; /* To ensure the ℹ️ icon aligns properly */
+    color: #007bff; /* Blue color for the info icon */
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 20px; /* Space between the options */
+    align-items: center;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between the radio button and the label */
+  }
+  
+  .radio-option label {
+    margin: 0;
+    font-size: 1em; /* Adjust font size if needed */
+  }
+  
